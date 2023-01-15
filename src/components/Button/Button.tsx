@@ -1,5 +1,9 @@
 import "./style.scss";
 
-export const Button = () => {
-  return <button className="start-btn">Start</button>;
+interface IButtonProps {
+  children: React.ReactNode;
+}
+
+export const Button: React.FC<IButtonProps> = ({ children }) => {
+  return <button className="btn">{children}</button>;
 };

@@ -1,3 +1,5 @@
+import "./style.scss";
+
 export const List = () => {
   const tasks = [
     {
@@ -8,14 +10,18 @@ export const List = () => {
       task: "Javascript",
       time: "01:00:00",
     },
+    {
+      task: "Typescript",
+      time: "01:50:00",
+    },
   ];
 
   return (
-    <aside>
-      <h2> Today's tasks </h2>
+    <aside className="task-list">
+      <h2> Estudos do dia </h2>
       <ul>
         {tasks.map((item, index) => (
-          <li key={index}>
+          <li key={index} className="item">
             <h3>{item.task}</h3>
             <span>{item.time}</span>
           </li>
