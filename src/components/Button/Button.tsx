@@ -1,7 +1,3 @@
-import React from "react";
-
-export class Button extends React.Component {
-  render() {
-    return <button>Button</button>;
-  }
+export function Button() {
+  return <button>Start</button>;
 }
