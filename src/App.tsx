@@ -1,11 +1,9 @@
-import { Form } from "./components/Form";
-import { List } from "./components";
+import { MainPage } from "./pages/MainPage";
 
 function App() {
   return (
     <div className="App">
-      <Form />
-      <List />
+      <MainPage />
     </div>
   );
 }
