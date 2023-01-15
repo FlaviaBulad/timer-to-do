@@ -1,6 +1,6 @@
 import { Button } from "../Button/Button";
 
-export function Form() {
+export const Form = () => {
   return (
     <form>
       <label htmlFor="task">Add a new task</label>
@@ -25,4 +25,4 @@ export function Form() {
       <Button />
     </form>
   );
-}
+};

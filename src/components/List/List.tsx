@@ -1,6 +1,4 @@
-import React from "react";
-
-export function List() {
+export const List = () => {
   const tasks = [
     {
       task: "React",
@@ -25,4 +23,4 @@ export function List() {
       </ul>
     </aside>
   );
-}
+};

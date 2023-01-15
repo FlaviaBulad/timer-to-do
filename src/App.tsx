@@ -1,11 +1,10 @@
-import { MainPage } from "./pages/MainPage";
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes";
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <MainPage />
-    </div>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   );
-}
-
-export default App;
+};

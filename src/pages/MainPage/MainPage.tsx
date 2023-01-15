@@ -1,11 +1,11 @@
 import { Form, List } from "../../components";
 import "./style.scss";
 
-export function MainPage() {
+export const MainPage = () => {
   return (
     <div className="container">
       <Form />
       <List />
     </div>
   );
-}
+};
