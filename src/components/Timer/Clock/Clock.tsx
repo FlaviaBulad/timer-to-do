@@ -1,11 +1,13 @@
+import "./style.scss";
+
 export const Clock = () => {
   return (
     <>
-      <span>0</span>
-      <span>0</span>
-      <span>0</span>
-      <span>0</span>
-      <span>0</span>
+      <span className="clockNumber">0</span>
+      <span className="clockNumber">0</span>
+      <span className="clockDiv">:</span>
+      <span className="clockNumber">0</span>
+      <span className="clockNumber">0</span>
     </>
   );
 };
