@@ -26,7 +26,7 @@ export const Form = () => {
           required
         />
       </div>
-      <Button>Start</Button>
+      <Button>Add</Button>
     </form>
   );
 };

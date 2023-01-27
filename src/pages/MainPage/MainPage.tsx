@@ -1,4 +1,4 @@
-import { Form, List } from "../../components";
+import { Form, List, Timer } from "../../components";
 import "./style.scss";
 
 export const MainPage = () => {
@@ -6,6 +6,7 @@ export const MainPage = () => {
     <div className="container">
       <Form />
       <List />
+      <Timer />
     </div>
   );
 };
